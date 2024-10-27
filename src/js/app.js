@@ -142,19 +142,6 @@ webui.config([
 
 webui.directive("textarea", directiveTextarea);
 
-if ("serviceWorker" in navigator && location.protocol === "https:") {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register("service-worker.js")
-      .then(registration => {
-        console.log("SW registered: ", registration);
-      })
-      .catch(registrationError => {
-        console.log("SW registration failed: ", registrationError);
-      });
-  });
-}
-
 $(function() {
   if (!String.prototype.startsWith) {
     Object.defineProperty(String.prototype, "startsWith", {
