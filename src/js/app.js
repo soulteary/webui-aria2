@@ -51,7 +51,7 @@ require("translate/nl_NL");
 require("translate/en_US");
 require("translate/th_TH");
 require("translate/zh_CN");
-require("translate/zh_TW");
+require("translate/zh_HK");
 require("translate/pl_PL");
 require("translate/fr_FR");
 require("translate/de_DE");
@@ -118,7 +118,7 @@ webui.config([
       .translations("nl_NL", mergeTranslation(translations.nl_NL, translations.en_US))
       .translations("th_TH", mergeTranslation(translations.th_TH, translations.en_US))
       .translations("zh_CN", mergeTranslation(translations.zh_CN, translations.en_US))
-      .translations("zh_TW", mergeTranslation(translations.zh_TW, translations.en_US))
+      .translations("zh_HK", mergeTranslation(translations.zh_HK, translations.en_US))
       .translations("pl_PL", mergeTranslation(translations.pl_PL, translations.en_US))
       .translations("fr_FR", mergeTranslation(translations.fr_FR, translations.en_US))
       .translations("de_DE", mergeTranslation(translations.de_DE, translations.en_US))
