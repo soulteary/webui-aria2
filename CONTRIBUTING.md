@@ -21,5 +21,4 @@ Use `npm run build` to create a production ready build from source files.
 | `npm install`             | will install required dependencies                                                                        |
 | `npm run dev`             | will start an HTTP dev server on http://localhost:8888 and will watch and compile the source files        |
 | `npm run build`           | will create a production build from source files                                                          |
-| `npm run analyze`         | will open a bundle analyzer on port http://localhost:9999. Useful for visualizing contents of your bundle |
 | `npm run format --silent` | will format your code for consistency using Prettier                                                      |

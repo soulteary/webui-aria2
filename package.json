@@ -5,9 +5,8 @@
   "homepage": "https://github.com/soulteary/webui-aria2#readme",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack -d --watch --progress & node node-server",
+    "dev": "webpack -d --watch --progress & node dev-server",
     "build": "webpack -p --progress",
-    "analyze": "webpack -p --profile --json > stats.json && webpack-bundle-analyzer stats.json ./docs -p 9999",
     "format": "prettier -l --write  \"**/*{js,scss}\" "
   },
   "repository": {
@@ -34,9 +33,7 @@
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.3.1",
     "webpack": "^4.46.1",
-    "webpack-bundle-analyzer": "^2.13.1",
-    "webpack-cli": "^3.3.12",
-    "workbox-webpack-plugin": "^3.6.3"
+    "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
     "prettier": "1.14.2",
