@@ -153,7 +153,7 @@ export default angular
             });
             console.log("remove paused: " + errors.length);
             _.forEach(errors, function(d) {
-              rpc.once('remove', [d.gid]);
+              rpc.once("remove", [d.gid]);
             });
 
             var offset = off;
