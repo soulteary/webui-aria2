@@ -17,11 +17,6 @@
   "bugs": {
     "url": "https://github.com/ziahamza/webui-aria2/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
   "dependencies": {
     "angular": "^1.7.3",
     "angular-translate": "^2.18.1",
@@ -44,7 +39,6 @@
     "workbox-webpack-plugin": "^3.4.1"
   },
   "devDependencies": {
-    "husky": "^1.0.0-rc.13",
     "prettier": "1.14.2",
     "pretty-quick": "^1.6.0"
   }
