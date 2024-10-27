@@ -13,6 +13,7 @@ translations.zh_HK = {
   Manage: "管理",
   "Pause All": "暫停所有",
   "Resume Paused": "恢復下載",
+  "Purge Paused": "清除已暫停",
   "Purge Completed": "清除已完成",
   "Shutdown Server": "關閉伺服器",
   Settings: "設定",
