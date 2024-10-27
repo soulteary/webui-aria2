@@ -7,14 +7,11 @@ src
 CONTRIBUTING.md
 LICENSE
 README.md
-app.json
 directurl.md
 docker-compose.yml
 favicon.ico
-node-server.js
-package-lock.json
+dev-server.js
 package.json
+yarn.lock
 postcss.config.js
-static.json
 webpack.config.js
-webui-aria2.spec
