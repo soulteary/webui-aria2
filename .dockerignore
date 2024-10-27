@@ -1,6 +1,5 @@
 .git
 screenshots
-src
 .gitignore
 .prettierignore
 .prettierrc
@@ -9,9 +8,4 @@ LICENSE
 README.md
 directurl.md
 docker-compose.yml
-favicon.ico
 dev-server.js
-package.json
-yarn.lock
-postcss.config.js
-webpack.config.js
