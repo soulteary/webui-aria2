@@ -143,6 +143,34 @@ export default angular
         translate.use(langkey);
       };
 
+      scope.purgeAllPaused = function() {
+        // offset, limit, like sql
+        // count
+        var fetch = function(off, count) {
+          rpc.once("tellWaiting", [off, count], function(data) {
+            var errors = _.filter(data[0], function(d) {
+              return d["status"] == "paused";
+            });
+            console.log("remove paused: " + errors.length);
+            _.forEach(errors, function(d) {
+              rpc.once('remove', [d.gid]);
+            });
+
+            var offset = off;
+            if (errors.length == 0) {
+              offset = off + count;
+            }
+
+            if (data[0].length == count) {
+              fetch(offset, count);
+            } else {
+              console.log("end");
+            }
+          });
+        };
+        fetch(0, 100);
+      };
+
       scope.shutDownServer = function() {
         rpc.once("shutdown", []);
       };
