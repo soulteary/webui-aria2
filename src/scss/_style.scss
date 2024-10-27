@@ -88,6 +88,7 @@ input[type="radio"] {
 
 .main-navbar .navbar-brand {
   color: #fff;
+  user-select: none;
 }
 
 .main-navbar .nav > li > a {
