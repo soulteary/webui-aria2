@@ -55,6 +55,7 @@ translations.zh_CN = {
   Peers: "Peers",
   "More Info": "更多信息",
   Remove: "删除",
+  "Move to Top": "移至顶端",
   "# of": "块数",
   Length: "块大小",
   // modals

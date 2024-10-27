@@ -55,6 +55,7 @@ translations.zh_HK = {
   Peers: "Peers",
   "More Info": "更多資訊",
   Remove: "刪除",
+  "Move to Top": "移至頂端",
   "# of": "塊數",
   Length: "塊大小",
   // modals
