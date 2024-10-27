@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
 
-const BUILD_DIR = path.join(__dirname, "docs");
+const BUILD_DIR = path.join(__dirname, "public");
 const APP_DIR = path.join(__dirname, "src", "js");
 
 const config = {
@@ -41,7 +41,7 @@ const config = {
     filename: "[name].js"
   },
   plugins: [
-    new CleanWebpackPlugin(["docs"]),
+    new CleanWebpackPlugin(["public"]),
     new webpack.ProvidePlugin({
       "window.jQuery": "jquery",
       jQuery: "jquery",
