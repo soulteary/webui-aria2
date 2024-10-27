@@ -110,7 +110,7 @@ Checkout [contributor's guide](CONTRIBUTING.md) to know more about how to contri
 
 # Support
 
-For any support, feature request and bug report add an issue in the github project. [link](https://github.com/ziahamza/webui-aria2/issues)
+For any support, feature request and bug report add an issue in the github project. [link](https://github.com/soulteary/webui-aria2/issues)
 
 # License
 

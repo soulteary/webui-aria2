@@ -2,7 +2,7 @@
   "name": "webui-aria2",
   "version": "1.0.0",
   "description": "The aim for this project is to create the worlds best and hottest interface to interact with aria2.",
-  "homepage": "https://github.com/ziahamza/webui-aria2#readme",
+  "homepage": "https://github.com/soulteary/webui-aria2#readme",
   "license": "MIT",
   "scripts": {
     "dev": "webpack -d --watch --progress & node node-server",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ziahamza/webui-aria2.git"
+    "url": "git+https://github.com/soulteary/webui-aria2.git"
   },
   "bugs": {
-    "url": "https://github.com/ziahamza/webui-aria2/issues"
+    "url": "https://github.com/soulteary/webui-aria2/issues"
   },
   "dependencies": {
     "angular": "^1.8.2",
